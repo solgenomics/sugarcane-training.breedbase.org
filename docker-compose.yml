@@ -3,21 +3,24 @@ version: "3.7"
 services:
   breedbase:
     image: breedbase/breedbase:latest
-    depends_on:
-      - breedbase_db
-    container_name: breedbase_web
+    container_name: breedbase_web_sugarcane_training 
+    environment:
+      PGHOST: db9.sgn.cornell.edu
+      PGDATABASE: sandbox_sugarcane_training 
+      PGPASSWORD: postgres
+      PGUSER: postgres 
     ports:
-      - 8080:8080
+      - 8119:8080    
     volumes:
       - webdata:/home/production/volume
       # - type: bind
       #   source: /home/production/basesite/empty_db_without.test_users.sql
       #   target: /home/production/empty_dump.sql
       - type: bind
-        source: ${HOME}/Documents/cxgn/sugarcane-training.breedbase.org/mason
+        source: ${HOME}/sugarcane-training.breedbase.org/mason
         target: /home/production/cxgn/sugarcane-training.breedbase.org/mason
       - type: bind
-        source: /home/production/home/production/sugarcane-training.breedbase.org/sgn_local.conf
+        source: /home/production/sgn_local_confs/sugarcane_training/sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
         source: /home/production/db_dumps
@@ -28,8 +31,6 @@ services:
       - type: bind
         source: bash_history
         target: /home/production/.bash_history
-    environment:
-      - TZ=America/New_York
 volumes:
   webdata:
 
