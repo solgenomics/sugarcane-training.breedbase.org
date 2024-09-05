@@ -1,0 +1,1583 @@
+format-version: 1.2
+auto-generated-by: java
+default-namespace: sugarcane_trait
+ontology: SUGARCANE
+
+
+[Term]
+id: SUGARCANE:0000000
+name: Sugarcane Trait Ontology
+namespace: sugarcane_trait
+
+[Typedef]
+id: VARIABLE_OF
+name: VARIABLE_OF
+
+[Term]
+id: SUGARCANE:0000109
+name: Internode shape
+namespace: sugarcane_trait
+def: "Relative shape of the internode wax band; cylindrical, constricted, funnel shapped, concave sided funnel"
+synonym: "Internode wax band shape" []
+xref: breedinginsight.org:2d689199-ec2b-4406-8278-ae11dbca7782
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000001
+name: Bud extension
+namespace: sugarcane_trait
+def: "Relative degree of bud extention is estimatie"
+xref: breedinginsight.org:e68361ab-baf1-4749-870f-a00ffc1d8ce0
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000002
+name: Bud color
+namespace: sugarcane_trait
+def: "Bud color"
+xref: breedinginsight.org:1b726308-2f44-44a3-9575-8d6b2ec8098f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000003
+name: Smut, stools
+namespace: sugarcane_trait
+def: "The number of stools with smut in a plot is counted"
+xref: breedinginsight.org:0dfc41d6-0a74-4175-8db9-38feb496381b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000004
+name: Auricle 2 shape
+namespace: sugarcane_trait
+def: "Shape of second auricle based on observations of 10 stalk bundle: Absent, calcariform, shor lanceolate, long lanceolate, sloping trasitional, horizontal transitional, ascending transitional, low transitional, dentoid, deltoid, falcate, unciform"
+synonym: "inner auricle shape" []
+xref: breedinginsight.org:321868fc-f795-4440-b6e6-49adf9e8e68a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000005
+name: Dry Weight, Juice Lab
+namespace: sugarcane_trait
+def: "Weight of 1000g shredded sample after juice is removed using a core press applying a force of 211 kg cm-1 for 1 min then dried for 72 h."
+xref: breedinginsight.org:fac301cd-1d79-4c87-934b-29235dd59e5f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000006
+name: 10 stalk bundle weight
+namespace: sugarcane_trait
+def: "10 stalks are cut from a plot in the field as a representative sample to estimate yield. The tops and leaf sheaths are removed. The bundle is placed on a scale to take weight as in Legendere (1992)"
+synonym: "bundle weight" []
+xref: breedinginsight.org:ab6eb238-0b63-4e07-b77d-2d994e541b04
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000007
+name: Diameter
+namespace: sugarcane_trait
+def: "Measurement of the diameter of sugarcane stalks. Usually taken on subsamples for special projects"
+xref: breedinginsight.org:76514367-3149-4ee4-a746-4bfe9dc18093
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000008
+name: Auricle 2 length
+namespace: sugarcane_trait
+def: "length of auricle"
+synonym: "inner auricle length" []
+xref: breedinginsight.org:37930959-0381-40a5-84a0-1a138284edcd
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000009
+name: Sucrose
+namespace: sugarcane_trait
+def: "Calculation of percent sucrose by Canal Point group. BRIX and POL are measure by juice lab"
+xref: breedinginsight.org:110579ee-f8d2-4452-b115-806870ebc06b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000010
+name: Smut, whips
+namespace: sugarcane_trait
+def: "The number of smut whips in a plot is counted"
+xref: breedinginsight.org:0e2c6688-10c3-4d8e-aebc-10af62794655
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000011
+name: Auricle 1 present or absent
+namespace: sugarcane_trait
+def: "Presence or absence of first or outer auricle based on observations of 10 stalk bundle."
+synonym: "outer auricle presence" []
+xref: breedinginsight.org:e906c41e-a8bd-4a63-86b6-4ea81dc232f2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000012
+name: Bud shape
+namespace: sugarcane_trait
+def: "Visual description of sugarcane bud: tall deltoid, round, round with central germpore, obovate, short deltoid, ovate, narrow ovate, ovate with broad wing tip, ovate with emarginate basal wing tip, rhomboid, pentagonal, squarish pentagonal"
+xref: breedinginsight.org:32d554ed-372a-4665-995d-9fe664d9852c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000013
+name: Ratoon Stunting Disease
+namespace: sugarcane_trait
+def: "Colonized vascular bundles (CVB) and total vascular bundles are counted in a single core collected from the lowest internode of four randomly selected stalks harvested from each plot as described in Grisham et al. (2009). The percentage of CVB is determined for each core, and a mean is calculated for each plot."
+synonym: "RSD" []
+xref: breedinginsight.org:521a9de8-1e6a-4490-9a56-f61cb409fcbb
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000014
+name: Dewlap shape
+namespace: sugarcane_trait
+def: "Shape of the dewlap: Deltoid, double crecent, squarish, squarish deltoid"
+xref: breedinginsight.org:df9a9b0f-095e-4d40-bd43-bb6fafb509eb
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000015
+name: Internode waxiness bloom rating
+namespace: sugarcane_trait
+def: "Relative prominence of the internode wax band"
+xref: breedinginsight.org:6a9208d6-6dc7-4b97-8d33-b88f9b6432aa
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000016
+name: Leaf scar
+namespace: sugarcane_trait
+def: "Presence or absense of scarous leaf margins"
+synonym: "scarious leaf margins" []
+xref: breedinginsight.org:b5798ef2-ed22-423d-a3df-afb8ed715c66
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000017
+name: Stalk Count
+namespace: sugarcane_trait
+def: "Count of stalks in a plot"
+xref: breedinginsight.org:73eb454c-7640-496f-bd6d-94b965bcf28f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000018
+name: Bud length
+namespace: sugarcane_trait
+def: "length of bud"
+xref: breedinginsight.org:ed627ac7-a686-4ca1-aa67-24bfa6734784
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000019
+name: Brix, old
+namespace: sugarcane_trait
+def: "Calculation for percent Brix of juice taken from pre-breaker press or roller mill using with disolved solids measured using a refractometer. BRIX is measurement from juice lab"
+synonym: "percent brix" []
+xref: breedinginsight.org:8ec65191-fdee-43ed-851e-15c280a5a18f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000020
+name: Ligule width
+namespace: sugarcane_trait
+def: "Width of ligule"
+xref: breedinginsight.org:b626e7b4-a53c-4fc3-bfff-6d08d9d0034f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000021
+name: Moisture % residue
+namespace: sugarcane_trait
+def: "Percent moisture determined from by drying the press plug"
+synonym: "% Moisture" []
+xref: breedinginsight.org:94f3a14a-5b71-45f6-af00-99c0b5882ddc
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000022
+name: Lala
+namespace: sugarcane_trait
+def: "The presence of germinating buds (lalas) on side stalks at harvest is observed"
+xref: breedinginsight.org:5bb951aa-fdc9-41ed-9cc3-a26ff036a5d9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000023
+name: Ratooning ability
+namespace: sugarcane_trait
+def: "Ratooning ability is noted"
+synonym: "Ratooning" []
+xref: breedinginsight.org:0c43d322-6dbd-4fb6-9846-7370bb90ca8f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000024
+name: SA
+namespace: sugarcane_trait
+def: "Calculation of stalks per acre"
+synonym: "S/A" []
+xref: breedinginsight.org:510027da-75b6-4cd3-af19-78a3c23eb820
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000025
+name: Orange Rust, rating 0-4
+namespace: sugarcane_trait
+def: "Rating of Orange Rust infection on 0-4 scale. A missing rating or 0 indicates no infection."
+xref: breedinginsight.org:e0ab20ea-af9c-47f1-8f15-602501e36029
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000026
+name: Bud pubescence
+namespace: sugarcane_trait
+def: "Presence of bud pubesence groups: Group 16 present; Group 26 present; None; Group 2 present; Group 3 present; Group 8 present; Group 10 present; Group 11 present"
+xref: breedinginsight.org:c2c32e17-9e2a-4381-b0b7-0d1422053db8
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000027
+name: Ligule shape
+namespace: sugarcane_trait
+def: "The ligule shape"
+xref: breedinginsight.org:8cd8b54d-bcf2-4a9f-a48b-28669f2b84aa
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000028
+name: Purity, old
+namespace: sugarcane_trait
+def: "Calculation of juice purity"
+xref: breedinginsight.org:2296ebf6-e767-42a6-bf33-4b523cd6ced1
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000029
+name: Average Stalk Count
+namespace: sugarcane_trait
+def: "Average of SC1 and SC2"
+synonym: "AvStalkCount" []
+xref: breedinginsight.org:9aa533b4-4722-416f-8a10-6a5dd495f5ec
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000030
+name: TSA
+namespace: sugarcane_trait
+def: "Calculation of sugar per acre"
+xref: breedinginsight.org:de72c3f0-3ae2-46f9-bddd-08ad0bdb25bd
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000031
+name: Purity
+namespace: sugarcane_trait
+def: "Calculation of juice purity. BRIX is measured by Canal Point Juice lab"
+xref: breedinginsight.org:5499124b-309a-4833-959b-f86914d22166
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000032
+name: VCF
+namespace: sugarcane_trait
+def: "see formula"
+xref: breedinginsight.org:1caf7c0b-8f26-4827-a926-7078a22a5aa8
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000033
+name: Brown Rust, 0-4 rating
+namespace: sugarcane_trait
+def: "Rating of Brown Rust infection on a 0-4 scale. If a rating is missing then there is no infection"
+synonym: "Brown Rust" []
+xref: breedinginsight.org:f683947c-c592-49dc-bc61-a13b40f73360
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000034
+name: Submitted for Variety Release Meeting
+namespace: sugarcane_trait
+def: "Variety is submitted to Variety Release Meeting"
+xref: breedinginsight.org:b24d62cf-e622-4bd1-925a-e5ef50992cae
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000035
+name: Smut, rating 0-9
+namespace: sugarcane_trait
+def: "Rating of Smut severity on a 0-9 scale. A missing rating or 0 indicates no infection."
+xref: breedinginsight.org:d80edefe-0b22-42f1-acd2-a3132d37f239
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000036
+name: Second Stalk Count
+namespace: sugarcane_trait
+def: "Count of stalks in a plot- is averaged with SC2 to report average stalk count"
+xref: breedinginsight.org:7fc9ea53-574e-4f47-ae45-00c7419beb52
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000037
+name: TCA, weighted
+namespace: sugarcane_trait
+def: "Large plots are weighed using a weigh wagon equipped with a load cell. Plot weight is multiplied times an area correction factor based on row size."
+xref: breedinginsight.org:d8e6e928-55a4-426d-841a-c3fade1cacaf
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000038
+name: Obs. Brix (roller mill juice), Juice Lab
+namespace: sugarcane_trait
+def: "10-stalk bundles are run though roller mill to extract juice. Juice Brix is determined using a refractometer."
+synonym: "% Brix" []
+xref: breedinginsight.org:2cd2bfb9-630f-492b-8336-4d70fd888a65
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000039
+name: Bud furrows
+namespace: sugarcane_trait
+def: "Presence or absence of bud furrows. GRIN categorizes by type: deep, short, narrow, indicated"
+xref: breedinginsight.org:fd7cc19c-1b5e-412c-a201-291907424f8d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000040
+name: Pol (roller mill juice), Juice Lab
+namespace: sugarcane_trait
+def: "Degrees Z is measured from sugarcane juice using a saccharimeter as described by ICUMSA"
+synonym: "apparent sucrose" []
+xref: breedinginsight.org:d4f1083f-befc-4894-a9aa-adca97b26a73
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000041
+name: Stalk, rating 0-9
+namespace: sugarcane_trait
+def: "Visual estimation of stalk size"
+synonym: "stalks" []
+xref: breedinginsight.org:5e1d12c9-af56-410b-a3b4-a92e690f4915
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000042
+name: Growth cracks
+namespace: sugarcane_trait
+def: "The presence of deep cracks on sugarcane stalk surface"
+synonym: "stalk growth cracks" []
+xref: breedinginsight.org:5880d96f-0375-40d3-bad5-d76898a24d8a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000043
+name: TRS, estimated fiber
+namespace: sugarcane_trait
+def: "For estimated fiber method, juice is extracted with a three-roller mill. The juice is analyzed in the laboratory like the pre-breaker method. Sample's sucrose content was estimated with juice Brix, juice pol, and variety correction factors, which were estimated from fiber content values determined in the Infield trials"
+synonym: "TRS roller mill" []
+xref: breedinginsight.org:d9173aca-af7c-4df0-8d1f-1b512aa1a0df
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000044
+name: Flowering intensity, cultivar
+namespace: sugarcane_trait
+def: "Categorical description of flowering intensity"
+xref: breedinginsight.org:7cf50f57-9fa9-4232-b504-3d725d45581d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000045
+name: Flowering Time
+namespace: sugarcane_trait
+def: "Day of year when first flowering tassel is recorded"
+xref: breedinginsight.org:0f0c6243-3d4e-44cc-8ea7-747f3c2aa168
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000046
+name: Yield
+namespace: sugarcane_trait
+def: "Cane from each plot is mechanically harvested using a chopper harvester and weighed in a single-axle, high-dump wagon equipped with electronic load cells as described in Johnson et al. (2005)"
+synonym: "plot weight" []
+xref: breedinginsight.org:b5510db7-2091-43e6-86e7-6b3c361b12db
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000047
+name: Brown Rust, 0-9 rating
+namespace: sugarcane_trait
+def: "Rating of Brown Rust infection on a 0-9 scale. If a rating is missing then there is no infection."
+synonym: "Brown Rust" []
+xref: breedinginsight.org:3a95b99d-994a-4dc2-9bd7-33f104e26e3e
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000048
+name: Mosaic Virus, inoculation
+namespace: sugarcane_trait
+def: "Thirty single bud cuttings of each variety are planted in a flat containing potting soil in a greenhouse. The trial is duplicated and include positive and negative control varieties. Inoculations are performed by spraying SCMV inoculum prepared by grinding infected leaves in phosphate buffer using a paint spray gun at 110 psi on leaves. The percentage of mosaic symptomatic plants is determined. Clones with a higher incidence of infection than the positive control (CP72-2086) are discarded."
+xref: breedinginsight.org:68858b1d-faba-4ed6-983c-311a31e245a5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000049
+name: Auricle 2 color
+namespace: sugarcane_trait
+def: "Color of second auricle based on observations of 10 stalk bundle using a Munsell color chart"
+synonym: "inner auricle color" []
+xref: breedinginsight.org:c7130be3-6987-40f5-ba39-a60cded18640
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000050
+name: Stalk Weight
+namespace: sugarcane_trait
+def: "see formula"
+xref: breedinginsight.org:764e45c7-44f5-4cba-9a50-73b032e468da
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000051
+name: Leaf Scald, stools
+namespace: sugarcane_trait
+def: "Number of stools with leaf scald is counted"
+xref: breedinginsight.org:ce7737c8-b668-4b90-ba81-0640204b37bf
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000052
+name: TCA, weighted outfield
+namespace: sugarcane_trait
+def: "Large plots are weighed using a weigh wagon equipped with a load cell. Plot weight is multiplied times an area correction factor based on row size multiplied times a 14% trash facto"
+xref: breedinginsight.org:8f113a5b-05ad-45ca-94fb-fe9af27a5fb8
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000053
+name: Bundle Weight, Juice lab
+namespace: sugarcane_trait
+def: "A 10 stalk bundle of sugarcane stalks is taken from the field to estimate yield. The tops and leaf sheaths are removed as described in Legendre et al. The bundle is placed on a scale to take weight."
+xref: breedinginsight.org:218bf60b-1fe0-4e43-a5f2-4e759a650827
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000054
+name: Plant erectness, rating 0-9
+namespace: sugarcane_trait
+def: "Observation of plant erectness"
+xref: breedinginsight.org:524c9aee-51e7-48e5-aad1-5bd1ec64b61f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000055
+name: Leaf length
+namespace: sugarcane_trait
+def: "Length of leaf"
+xref: breedinginsight.org:8a9d7d37-a1d7-4274-a200-27cb449d99f5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000056
+name: Parent Advancement rates (first line to second line)
+namespace: sugarcane_trait
+def: "The percent of clones advanced in First line stage to second line with this parent."
+synonym: "Second line Advancement rates" []
+xref: breedinginsight.org:97b625c8-bd45-4188-b9fb-388210f979e2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000057
+name: Diameter, rating 0-9
+namespace: sugarcane_trait
+def: "Ratings of the diameter of sugarcane stalks."
+xref: breedinginsight.org:cbf2fab4-0481-4389-b6a1-e6ed34965527
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000058
+name: Leaf width
+namespace: sugarcane_trait
+def: "Width of leaf"
+xref: breedinginsight.org:96ece1e9-7647-475a-83bc-008ea2b27618
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000059
+name: Parent Advancement rates (seedlings to first line)
+namespace: sugarcane_trait
+def: "The percent of clones advanced in seedling stage to first line with this parent."
+synonym: "First line Advancement rates" []
+xref: breedinginsight.org:4df83b1f-fd84-48cd-929f-f313b6506c73
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000060
+name: Ratooning ability slope
+namespace: sugarcane_trait
+def: "regression slope of the yield by crop year plant cane through 2rd ratoon. Yield = intercept + slope Crop(0-2) As described in Zhou and Shoko (2012)."
+synonym: "Ratooning" []
+xref: breedinginsight.org:02e15595-1214-47b7-880f-50c921f306b7
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000061
+name: TRS
+namespace: sugarcane_trait
+def: "Calculation of theoretical recoverable sucrose by Canal Point group. BRIX and FIBER are measured by juice lab"
+xref: breedinginsight.org:7e82e164-6c1a-4c58-b7e7-a65c91d1fdce
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000062
+name: Ratoon Stunting Disease, inoculation
+namespace: sugarcane_trait
+def: "Seedcane stalks are placed in a 3.3 m single row plot and cut into several pieces using a machetes that has been dipped in the juice collected from the infected stalks of CP53-1 (consists a very high population of the pathogen). About 9 to10 months after inoculation, five stalks from each individual plots in plant cane crop are randomly selected and cut near the ground. Then 15 cm long basal portion from each of the five stalks consisting of an internode is cut and cored from the internode using a 1-cm diameter Cork borer. The core piece is cut into 1-cm section and placed into the custom-made plastic holder (holding a nitrocellulose membrane placed on the top of a blotting paper). The plates are centrifuged at 1300 G for 10 minutes. Centrifugation makes vascular bundles imprints on the nitrocellulose membranes and bacteria deposits in the imprints. After tissue-blot immunoassay, vascular bundles colonized with bacteria turns blue. These blue dots per 1-cm section are counted. Average of number of colonized vascular bundles (CVB) is calculated"
+synonym: "RSD" []
+xref: breedinginsight.org:f7d97c1a-c566-4e13-afce-69a0d53988b1
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000063
+name: Dewlap color
+namespace: sugarcane_trait
+def: "The color of the dewlap"
+xref: breedinginsight.org:84eb93ea-9468-45d9-8ca7-91b0d3b568ab
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000064
+name: Pol (FOSS NIR)
+namespace: sugarcane_trait
+def: "Old mill is used to shred 10 stalk bundle and and brix is measured via near-infrared spectrometry using a FOSS 5000 beverage module near-infrared spectrometer (Foss North America), then fiber is assumed as 10%."
+synonym: "Pol" []
+xref: breedinginsight.org:e1599112-143e-4eba-91a4-08fa413b3364
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000065
+name: TRS, new
+namespace: sugarcane_trait
+def: "Newer calculation of theoretical recoverable solids"
+xref: breedinginsight.org:d200bf8a-4b10-4a51-9acd-2a7bf91a2373
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000066
+name: Height
+namespace: sugarcane_trait
+def: "Measure of the plant height of a cultivar. Trait is usually used for subsampling in special projects"
+synonym: "Plant height" []
+xref: breedinginsight.org:40f02a59-461b-4d8a-9b66-c4e8b62f7e76
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000067
+name: TRS, High/Low
+namespace: sugarcane_trait
+def: "Average TRS from a test assigned to categories"
+xref: breedinginsight.org:db0dc0d9-0a84-40fd-9c23-e21b17ba996a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000068
+name: Leaf Scald, field rating
+namespace: sugarcane_trait
+def: "Categorical description of leaf scald in the field."
+xref: breedinginsight.org:b8a4c137-8443-42d4-bbae-2095dae2b1be
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000069
+name: Leaf Scald, stalks
+namespace: sugarcane_trait
+def: "Number of stalks with leaf scald is counted"
+xref: breedinginsight.org:7f76f784-6934-427b-a17d-ad5fea81ccc5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000070
+name: Leaf Scald, 1-9 rating
+namespace: sugarcane_trait
+def: "An average disease severity rating of 1 to 9 is assigned to each plot as described in Tew et al. (2009). Ratings are based on a comparison with inoculated cultivars with known levels of resistance and susceptibility to leaf scald infection"
+xref: breedinginsight.org:39eebeef-bd9f-4a1c-805d-b0f5df8d94ad
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000071
+name: %Fiber ( CPS FT-NIR)
+namespace: sugarcane_trait
+def: "10-stalk bundles are run though CPS FT-NIR (Brucker optics). The estimated CPS fiber calibration curve was established determining the percent cane based on a 1000g subsample analyzed in the Ardoyne Farm juice lab."
+synonym: "% Fiber" []
+xref: breedinginsight.org:d50b2d41-781a-4799-858d-7b4bb5700d48
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000072
+name: Sucrose, new
+namespace: sugarcane_trait
+def: "Newer calculation for percent sucrose of juice taken from pre-breaker press or roller mill using with disolved solids measured using a refractometer."
+xref: breedinginsight.org:80dd051a-ef15-4311-80a6-412fd0b96fd9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000073
+name: Self Stripper
+namespace: sugarcane_trait
+def: "The presence of germinating buds (lalas) on side stalks at harvest is observed"
+xref: breedinginsight.org:d903b796-630a-4f6b-a9e1-85f4df48606b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000074
+name: Borer, rating 0-9
+namespace: sugarcane_trait
+def: "Stalks are sampled in situ and left intact. Only 2-3 leaf sheaths of the upper one-third of the stalk are surveyed which is accomplished by carefully pulling leaf sheaths away from stalks and examining behind the sheaths and the surface of the associated internodes for the presence of borer larvae as described in White et al. (2008). Visual rating of borer infestation is scored on a 0-9 scale. A missing rating or 0 indicates no infection."
+synonym: "borer" []
+xref: breedinginsight.org:328385a6-bf68-4ff1-bfde-7b255f1c98fe
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000075
+name: Brix ( CPS FT-NIR)
+namespace: sugarcane_trait
+def: "10-stalk bundles are run though CPS FT-NIR (Brucker optics). The estimated Brix calibration curve was established based on observed Brix using a 1000g subsample analyzed in the Ardoyne Farm juice lab."
+synonym: "% Brix" []
+xref: breedinginsight.org:15c944d9-8633-41bc-b0ee-a63c83104603
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000076
+name: Released Variety
+namespace: sugarcane_trait
+def: "If a cultivar or variety has been released to the public by the Louisiana or Florida variety release committee"
+xref: breedinginsight.org:ae71f1ec-cdec-4311-80d3-020d7b939517
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000077
+name: Smut, inoculation
+namespace: sugarcane_trait
+def: "Stalk are cut into the three buds pieces. Five stalk pieces of each variety are bundled and soaked in the smut spore suspension for thirty minutes then stored under a tarp overnight and planted in a field following morning. The trial is replicated four times. Stalks with whips and without whips are counted in each plot and percent infection is calculated. Clones with a higher incidence of infection than the positive control (CP78-1628) are discarded."
+xref: breedinginsight.org:97db34f1-76b8-4c6b-9151-821282fc1c17
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000078
+name: Auricle 1 color
+namespace: sugarcane_trait
+def: "Color of first auricle based on observations of 10 stalk bundle using a Munsell color chart"
+synonym: "outer auricle color" []
+xref: breedinginsight.org:bf9032c4-b7a1-4b14-8ffc-d971fee92cad
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000079
+name: Growth ring
+namespace: sugarcane_trait
+def: "Length of growth ring swelling is measured. GRIN indicates swollen, slightly swollen, not swollen"
+xref: breedinginsight.org:5fe675e1-2d36-4fe6-ac20-ece97bb4f9a3
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000080
+name: Sucrose, old
+namespace: sugarcane_trait
+def: "Calculation for percent sucrose of juice taken from pre-breaker press or roller mill using with disolved solids measured using a refractometer. POL and BRIX are measurements from juice lab"
+synonym: "sucrose percent cane" []
+xref: breedinginsight.org:68f7afe0-8c8a-456f-ac75-b94cce01b489
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000081
+name: Pith, rating 0-9
+namespace: sugarcane_trait
+def: "Amount of pith within a sugarcane stalk is visually estimated. Absence of a rating or 0 indicates no pith"
+synonym: "Pithiness" []
+xref: breedinginsight.org:9bcbb493-08c4-4838-9c42-aa98288180ff
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000082
+name: Seed Set
+namespace: sugarcane_trait
+def: "The average of seed set from multiple crosses with one male"
+xref: breedinginsight.org:b01b4a80-d99e-45bc-a492-5545895ba5a5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000083
+name: Economic index
+namespace: sugarcane_trait
+def: "Calculation of an (outdated) economic index by Canal point group"
+xref: breedinginsight.org:3203622e-bd53-4e26-95bf-d30b392fe72b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000084
+name: Intercept Ratoon regression
+namespace: sugarcane_trait
+def: "regression intercept of the yield by crop year plant cane through 2rd ratoon. Yield = intercept + slope Crop(0-2). As described in Zhou and Shoko (2012)."
+synonym: "Ratoon intercept" []
+xref: breedinginsight.org:5d134c73-cda7-4a68-add4-e907eccfecd6
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000085
+name: Mosaic Virus
+namespace: sugarcane_trait
+def: "Percentage of infected stools in each plot is calculated by counting the number of infected and healthy stools."
+xref: breedinginsight.org:e8c02c52-c6d0-46e9-874e-ec1f9c14dfc2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000086
+name: Germination Test
+namespace: sugarcane_trait
+def: "Number of germinated seeds per unit (either 1/2g or 1g) of fuzz (a mixture of seed, its bracts, attached hairs, and parts of the rachis) is counted"
+synonym: "fuzz germination" []
+synonym: "seed germination" []
+xref: breedinginsight.org:fc564c68-afae-4d8c-bcee-4905429695db
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000087
+name: Parent Advancement rates (second line to assignments)
+namespace: sugarcane_trait
+def: "The percent of clones advanced in Second line stage to assignments with this parent."
+synonym: "Assignment Advancement rates" []
+xref: breedinginsight.org:a8474218-cb81-4e70-8f27-6121d7bda9d2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000088
+name: Leaf Scald, inoculation
+namespace: sugarcane_trait
+def: "Inoculations are performed by spraying bacterial inoculum using a paint spray gun at 40 psi on the both freshly cut ends of the 30 single bud cuttings of each variety. These inoculated buds are planted in a flat containing potting soil in a greenhouse. The trial is triplicated and included positive and negative control varieties. The percentage of leaf scald symptomatic plants is determined. Clones with a higher incidence of infection than the positive control (CP80-1743) are discarded."
+xref: breedinginsight.org:a9349c3d-48f7-4092-8c9c-f9cb1d1c4565
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000089
+name: Corr residue
+namespace: sugarcane_trait
+def: "see formula"
+xref: breedinginsight.org:85c9ab84-2841-4673-8343-072a2e88f04a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000090
+name: Leaf sheath pubescence
+namespace: sugarcane_trait
+def: "Presence or absence of leaf sheath pubescence: Hair group 56 present, Hair group 56 absent, Hair group 57 present, Hair group 57 absent Hair group 60 present, Hair group 60 absent"
+synonym: "Leaf sheath hair" []
+xref: breedinginsight.org:c96183c5-dc31-4990-a08c-ad88d1d4d16d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000091
+name: Wet Weight, Juice Lab
+namespace: sugarcane_trait
+def: "Weight of 1000g shredded sample after juice is removed using a core press applying a force of 211 kg cm-1 for 1 min."
+synonym: "weight to oven" []
+synonym: "wet plug wt." []
+xref: breedinginsight.org:a2c86585-b97f-4da7-87db-702407930054
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000092
+name: Lodging, shoot
+namespace: sugarcane_trait
+def: "The presence of shoot lodging is noted"
+xref: breedinginsight.org:659f2038-7646-4123-b206-67be0f1150a6
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000093
+name: SPA
+namespace: sugarcane_trait
+def: "Calculation of tons of sugar per acre"
+xref: breedinginsight.org:648bc4ec-94c0-435c-80bd-16b8d0948cf2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000094
+name: Auricle 2 present or absent
+namespace: sugarcane_trait
+def: "Presence or absence of first or outer auricle based on observations of 10 stalk bundle."
+synonym: "inner auricle presence" []
+xref: breedinginsight.org:e2022432-921e-40b4-8d38-31e0ef2021ef
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000095
+name: Ratooning ability % Plant cane
+namespace: sugarcane_trait
+def: "100*(second ratoon yield/plant cane yield). As described in Milligan (2016)"
+synonym: "Ratooning" []
+xref: breedinginsight.org:c065e399-d8fd-4d75-b0fa-42e5bcfd6d77
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000096
+name: Shoot Counts
+namespace: sugarcane_trait
+def: "Number of shoots is counted"
+xref: breedinginsight.org:5071fc16-0ea5-461d-8a18-e2718861c9b2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000097
+name: Sex, M/F/WM
+namespace: sugarcane_trait
+def: "Sex determination of tassel by pollen produced"
+xref: breedinginsight.org:8378eb10-00f1-4db2-9f94-f908cd19c9a4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000098
+name: Lodging, root
+namespace: sugarcane_trait
+def: "The presence of root lodging is noted"
+xref: breedinginsight.org:4ad99b8a-e730-42c8-a7bb-033d2d41aa0a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000099
+name: Shoot, rating 0-9
+namespace: sugarcane_trait
+def: "Visual estimation of number of stalks in the field"
+synonym: "shoots" []
+xref: breedinginsight.org:67ed5fb6-b670-408a-a592-ef77b0752ab9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000100
+name: Fiber, old
+namespace: sugarcane_trait
+def: "Calculation for percent fiber of dried core sample taken from pre-breaker press and dried. BRIX is measurement from juice lab"
+xref: breedinginsight.org:7fad8a52-f4b1-4f3d-8604-8b6b66fff278
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000101
+name: 10 stalk bundle count
+namespace: sugarcane_trait
+def: "Count of bundles in stalk- is almost always 10"
+xref: breedinginsight.org:1f7bff10-c2d0-4637-b548-2f65c750465d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000102
+name: Fiber, new
+namespace: sugarcane_trait
+def: "Newer calculation for percent fiber of dried core sample taken from pre-breaker press and dried."
+xref: breedinginsight.org:66a861ad-9a4a-4694-90d4-2de5e63052ad
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000103
+name: Leaf sheaths adhesion
+namespace: sugarcane_trait
+def: "Relative degree of leaf sheath clasping"
+synonym: "Leaf sheath clasping" []
+xref: breedinginsight.org:39949dea-6314-4dca-9cb4-62c9af53a37a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000104
+name: Sample Size, Juice lab
+namespace: sugarcane_trait
+def: "Weight of shredded sample (1000 g) for core press"
+xref: breedinginsight.org:913a58e2-ff46-4451-aef3-43873f65be94
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000105
+name: Pol (pre-breaker juice), Juice lab
+namespace: sugarcane_trait
+def: "The 10-stalk samples are shredded in a pre-breaker and juice is expressed from a 1 kg sample in a core press applying a force of 211 kg cm-1. J. Degrees Z is measured from sugarcane juice using a saccharimeter. The estimated Pol calibration curve was established using the old cane formula sucrose estimate based on 1000g sub samples processed in the Ardoyne Farm Juice Lab."
+synonym: "apparent sucrose" []
+xref: breedinginsight.org:1fb64ac8-d062-447c-9910-8afa99cd6f82
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000106
+name: Height, rating 0-9
+namespace: sugarcane_trait
+def: "Visual estimation and rating of plant height"
+synonym: "Plant height" []
+xref: breedinginsight.org:ff4fc6e2-26e3-4a46-9c8e-831b5ee73fcf
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000107
+name: First Stalk Count
+namespace: sugarcane_trait
+def: "Count of stalks in a plot- is averaged with SC2 to report average stalk count"
+xref: breedinginsight.org:4d0b23ca-8325-4a8a-90af-042ce0c61d16
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000108
+name: Ligule color
+namespace: sugarcane_trait
+def: "The ligule color"
+xref: breedinginsight.org:f60c125f-a05e-4f60-b2ac-58a75d1c7d14
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000110
+name: Flowering Time, cultivar
+namespace: sugarcane_trait
+def: "Categorical description of flowering time"
+xref: breedinginsight.org:19a517c5-55f4-4e55-9419-ac95027a7cd2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000111
+name: TCA
+namespace: sugarcane_trait
+def: "Calculation of tons of cane per acre. SA is stalks per acre"
+synonym: "T/A" []
+synonym: "TA" []
+xref: breedinginsight.org:51487af1-e169-4692-a4a3-a2d79c9ba2f6
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000112
+name: Orange Rust, rating 0-9
+namespace: sugarcane_trait
+def: "Rating of Orange Rust infection on 0-9 scale. A missing rating or 0 indicates no infection."
+xref: breedinginsight.org:feb28a48-0a69-4472-8ea0-0583c15d2010
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000113
+name: Auricle 1 length
+namespace: sugarcane_trait
+def: "length of auricle"
+synonym: "outer auricle length" []
+xref: breedinginsight.org:3535e486-7748-48fc-8bd4-a19a0ddca35c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000114
+name: Auricle 1 shape
+namespace: sugarcane_trait
+def: "Shape of outer auricle based on observations of 10 stalk bundle: Absent, calcariform, shor lanceolate, long lanceolate, sloping trasitional, horizontal transitional, ascending transitional, low transitional, dentoid, deltoid, falcate, unciform"
+synonym: "outer auricle shape" []
+xref: breedinginsight.org:32e28055-9350-4f63-9d40-db4de8a08fc0
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000115
+name: Yellow Leaf Disease
+namespace: sugarcane_trait
+def: "Infection of SCYLV in each variety in primary and secondary seed increases at each location is tested by tissue-blot immunoassay as described in Schneck et al. (1997)."
+synonym: "Sugarcane Yellow Leaf Virus" []
+xref: breedinginsight.org:73ab3409-c153-4f6c-8e15-2ed13a4da60a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000116
+name: Extra residue
+namespace: sugarcane_trait
+def: "Extra residue in sample after moisture is removed"
+xref: breedinginsight.org:07fe8e26-42b9-4cf9-bbb4-115f25db9e0a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000117
+name: Bud width
+namespace: sugarcane_trait
+def: "Width of bud"
+xref: breedinginsight.org:a6458134-73ae-4cde-8c84-c51ade64787f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000118
+name: Canopy, rating 0-8
+namespace: sugarcane_trait
+def: "Morphologic shape of the sugarcane canopy described using the provided categorical descriptors"
+xref: breedinginsight.org:a681da4e-c472-49bc-9c28-722854c70ff4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000119
+name: BRU1
+namespace: sugarcane_trait
+def: "Presence of Bru1 is indicated by a 570-bp amplification product of marker R12H16 or a 200-bp fragment produced after digestion of marker 9024-F4 product with RsaI enzyme as described in Parco et al. 2014"
+synonym: "Bru1" []
+xref: breedinginsight.org:c0eb88c7-bfaa-4932-abca-67526fce2c9b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000120
+name: Brix, new
+namespace: sugarcane_trait
+def: "Newer caculation for percent Brix of juice taken from pre-breaker press or roller mill using with disolved solids measured using a refractometer."
+xref: breedinginsight.org:f9ced505-3793-4ad3-a24a-1cff08268db1
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000121
+name: Obs. Brix (pre-breaker juice), Juice Lab
+namespace: sugarcane_trait
+def: "The 10-stalk samples are shredded in a pre-breaker and juice is expressed from a 1 kg sample in a core press applying a force of 211 kg cm-1. Juice Brix is determined using a refractometer."
+synonym: "% Brix" []
+xref: breedinginsight.org:77f13fc7-2194-4ae1-af22-130227f6f6c5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000122
+name: Sex, rating 1-9
+namespace: sugarcane_trait
+def: "Rating of pollen production based by using magnification loop or microscope."
+synonym: "Pollen Rating" []
+xref: breedinginsight.org:496502de-ca25-47a3-bc9a-ece8433736c9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000123
+name: Brix (FOSS NIR)
+namespace: sugarcane_trait
+def: "Old mill is used to shred 10 stalk bundle and and pol is measured via near-infrared spectrometry using a FOSS 5000 beverage module near-infrared spectrometer (Foss North America), then fiber is assumed as 10%."
+synonym: "Brix" []
+xref: breedinginsight.org:775a8873-ccfd-428f-9a6d-d3d7d45f3352
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000124
+name: TRS, old
+namespace: sugarcane_trait
+def: "Calculation of theoretical recoverable solids"
+synonym: "S/T" []
+xref: breedinginsight.org:5a59fab6-55a0-420d-950a-01a425d16d56
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000125
+name: CRS
+namespace: sugarcane_trait
+def: "Calculation of CRS"
+xref: breedinginsight.org:c6a98c58-3738-4cb6-9a73-44a87939d248
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000126
+name: Pol (CPS FT-NIR)
+namespace: sugarcane_trait
+def: "10-stalk bundles are run though CPS FT-NIR (Brucker optics) The estimated Pol calibration curve was established using the old cane formula sucrose estimate based on 1000g sub samples processed in the Ardoyne Farm Juice Lab."
+synonym: "Pol" []
+xref: breedinginsight.org:f1fab72a-484e-4ff3-9834-484bb93ab0f6
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000127
+name: BRU2
+namespace: sugarcane_trait
+def: "Presence of Bru2 is indicated by...."
+synonym: "Bru2" []
+xref: breedinginsight.org:fc4873c9-78d6-4838-9063-0cc4755f3e6f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000128
+name: Number of Tillers (can line)
+namespace: sugarcane_trait
+def: "Tiller numbers are rated as high or low for parents used in crossing"
+xref: breedinginsight.org:f5912954-f8e0-4604-80e0-04df6bd03be1
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000129
+name: Flowering, parent
+namespace: sugarcane_trait
+def: "Observation of if a parent is flowering"
+xref: breedinginsight.org:0df43da3-bb99-4b7c-a737-93ab4227cb74
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000130
+name: Sediment, Juice Lab
+namespace: sugarcane_trait
+def: "This is a standardized number set to 0.00100000004749745"
+synonym: "% sediment" []
+xref: breedinginsight.org:3763b50a-e125-4043-95eb-73b5bdb7f523
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000131
+name: Leaf Scald Inoculation, Healthy Plants
+namespace: sugarcane_trait
+def: "Number of healthy plants in an inoculated flat"
+xref: breedinginsight.org:b07fad9d-23d9-444f-a910-4da86220888c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000132
+name: Leaf Scald Inoculation, Infected Plants
+namespace: sugarcane_trait
+def: "Number of infected plants in an inoculated flat"
+xref: breedinginsight.org:f20776c4-a2b6-4b9e-8dfc-c7e88c4885b8
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000133
+name: Leaf Scald Inoculation, Germinated Plants
+namespace: sugarcane_trait
+def: "Number of germinating plants in an inoculated flat"
+xref: breedinginsight.org:9c2bdc48-2df2-4aa1-b5c5-d5c5115bb3f5
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000134
+name: Mosaic Virus Inoculation, Healthy Plants
+namespace: sugarcane_trait
+def: "Number of healthy plants in an inoculated flat"
+xref: breedinginsight.org:f555e0ad-9a71-41a3-8a60-22e525137989
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000135
+name: Mosaic Virus Inoculation, Infected Plants
+namespace: sugarcane_trait
+def: "Number of infected plants in an inoculated flat"
+xref: breedinginsight.org:729f052a-cbf0-483c-b906-23a712d03be3
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000136
+name: Mosaic Virus Inoculation, Germinated Plants
+namespace: sugarcane_trait
+def: "Number of germinating plants in an inoculated flat"
+xref: breedinginsight.org:72fffd65-6ab6-465e-89b7-8ccdd387c042
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000137
+name: Seedlings, number planted
+namespace: sugarcane_trait
+def: "Number of seedlings planted from a cross"
+xref: breedinginsight.org:feed8fcb-c006-4791-a764-64a4d0036fd2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000138
+name: Seedlings, number selected
+namespace: sugarcane_trait
+def: "Number of seedlings selected from a cross"
+xref: breedinginsight.org:161ab33b-6409-4d20-b450-14cc77424932
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000139
+name: Seedlings, percent selected
+namespace: sugarcane_trait
+def: "Calculation for the percent of seedlings that were selected for a given cross "
+synonym: "% Selected" []
+xref: breedinginsight.org:18e7dddc-d67a-41ed-bbb4-21cf4f316f41
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000140
+name: Brix, handheld refractometer
+namespace: sugarcane_trait
+def: "Brix is measured in the field using a handheld refractometer"
+xref: breedinginsight.org:b6c328cd-93ed-42fe-878e-ec9a6bc2f309
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000141
+name: Vigor, 0-9 Scale
+namespace: sugarcane_trait
+def: "Visual rating of vigor"
+xref: breedinginsight.org:5495f151-7853-4feb-861c-45ab249492bb
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000142
+name: Brix*Vigor
+namespace: sugarcane_trait
+def: "(Brix, handheld refractometer )* (Vigor, 0-9 scale), used in Stage 1 trials at Canal Point"
+xref: breedinginsight.org:8b49045e-170a-4ae6-b354-15aa534edc87
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000143
+name: Rust, 0-9 scale, unspecified
+namespace: sugarcane_trait
+def: "Rust is scored on a 0-9 scale but type is not specified"
+xref: breedinginsight.org:9a704e62-c089-4b90-bb1e-5cc31d27a2ed
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000144
+name: Rater
+namespace: sugarcane_trait
+def: "Name of rater for scored traits"
+xref: breedinginsight.org:97de0317-97eb-4ed2-bfff-88e1a88981fe
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000145
+name: Stage 1, number planted
+namespace: sugarcane_trait
+def: "Number of plants advanced from seedling stage and planted in stage 1"
+xref: breedinginsight.org:c2a91dc8-be5d-454e-8d7b-4affba5c26d4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000146
+name: Stage 1, number selected
+namespace: sugarcane_trait
+def: "Number of plants selected from a cross in stage 1 and advanced to stage 2"
+xref: breedinginsight.org:ec32a19d-f37d-4f89-b02b-a18b8b17120e
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000147
+name: CRS, Early Harvest
+namespace: sugarcane_trait
+def: "crs calculation"
+xref: breedinginsight.org:d1268858-1d02-478a-a3c8-881ade1281c0
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000148
+name: Purity, Early Harvest
+namespace: sugarcane_trait
+def: "purity lab measurment"
+xref: breedinginsight.org:40344386-fdef-4209-8650-2837737281c4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000149
+name: Dollars per Acre, Early Harvest
+namespace: sugarcane_trait
+def: "dollars per acre calculation"
+xref: breedinginsight.org:00f562c4-c4ea-44d1-a109-7f3ce8195cca
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000150
+name: TSA, Late Harvest
+namespace: sugarcane_trait
+def: "tsa calculation"
+xref: breedinginsight.org:70934e58-214c-49fb-97be-6e5c3ea8edd2
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000151
+name: Single Stalk Weight, Late Harvest
+namespace: sugarcane_trait
+def: "weight of a single stalk estimated by dividing bundle weight by number of stalks in plot"
+xref: breedinginsight.org:7a553860-f0d4-41cc-a09a-f517226ec955
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000152
+name: Pol, Early Harvest
+namespace: sugarcane_trait
+def: "pol lab measurement"
+xref: breedinginsight.org:92719cdb-3414-4b87-a8d5-a8e03aa2c99c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000153
+name: Bundle Weight, Late Harvest
+namespace: sugarcane_trait
+def: "weight of bundle, in lbs"
+xref: breedinginsight.org:bb551198-aaa4-4311-8983-83226a5fe83b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000154
+name: Early Rating, Late Harvest
+namespace: sugarcane_trait
+def: "early rating"
+xref: breedinginsight.org:4828a7bc-e113-4a28-984c-84b1c0ff209f
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000155
+name: Number of Stalks in Plot, Late Harvest
+namespace: sugarcane_trait
+def: "count of number of stalks in plot"
+xref: breedinginsight.org:491a6b19-c882-419f-bb14-a3ff0b5cde5e
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000156
+name: Purity, Late Harvest
+namespace: sugarcane_trait
+def: "purity lab measurment"
+xref: breedinginsight.org:cd473220-f19d-48af-95da-241032d286eb
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000157
+name: Number of Stalks in Bundle, Early Harvest
+namespace: sugarcane_trait
+def: "count of number of stalks in bundle, usually equals 10"
+xref: breedinginsight.org:b5b2e683-f229-4a16-9889-424f703acc56
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000158
+name: TRS, Late Harvest
+namespace: sugarcane_trait
+def: "trs calculation"
+xref: breedinginsight.org:8759c263-8cd8-4ec7-ad9f-84e935070fe7
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000159
+name: Early Rating, Early Harvest
+namespace: sugarcane_trait
+def: "early rating"
+xref: breedinginsight.org:c958c00d-d58b-46c1-8d43-cd96b8541b5d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000160
+name: TCA, Late Harvest
+namespace: sugarcane_trait
+def: "tca calculation"
+xref: breedinginsight.org:5179a560-8703-4946-912a-fe94734b4e13
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000161
+name: Fiber, Late Harvest
+namespace: sugarcane_trait
+def: "fiber lab measurement"
+xref: breedinginsight.org:b5a38442-0cc3-402b-b008-79d463d9391a
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000162
+name: Bundle Weight, Early Harvest
+namespace: sugarcane_trait
+def: "weight of bundle, in lbs"
+xref: breedinginsight.org:9995c3ec-3f0e-4bf2-9765-ffdaafe036cf
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000163
+name: TRS, Early Harvest
+namespace: sugarcane_trait
+def: "trs calculation"
+xref: breedinginsight.org:cd08a8cb-0d6a-45e6-8774-b4aaf8c1280c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000164
+name: CRS, Late Harvest
+namespace: sugarcane_trait
+def: "crs calculation"
+xref: breedinginsight.org:15ca55b0-5e08-49cc-a562-7b208c112e72
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000165
+name: Sucrose, Late Harvest
+namespace: sugarcane_trait
+def: "sucrose lab measurement"
+xref: breedinginsight.org:6217a8cd-5415-4066-8b5d-f035544c083b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000166
+name: Single Stalk Weight, Early Harvest
+namespace: sugarcane_trait
+def: "weight of a single stalk estimated by dividing bundle weight by number of stalks in plot"
+xref: breedinginsight.org:4d99a606-dab0-49ba-a3c3-1396082ba5b3
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000167
+name: Sucrose, Early Harvest
+namespace: sugarcane_trait
+def: "sucrose lab measurement"
+xref: breedinginsight.org:8e2db49f-c370-49db-b03b-7fd09f1811da
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000168
+name: TSA, Early Harvest
+namespace: sugarcane_trait
+def: "tsa calculation"
+xref: breedinginsight.org:341f6342-ca2b-4fb0-9e51-dacfd52d7692
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000169
+name: Fiber, Early Harvest
+namespace: sugarcane_trait
+def: "fiber lab measurement"
+xref: breedinginsight.org:6cd672fa-b79e-450e-a4af-01d8544281f4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000170
+name: Pol, Late Harvest
+namespace: sugarcane_trait
+def: "pol lab measurement"
+xref: breedinginsight.org:ca8c929d-6ae5-4d0d-abb4-c0cf9a562d6e
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000171
+name: Number of Stalks in Plot, Early Harvest
+namespace: sugarcane_trait
+def: "count of number of stalks in plot"
+xref: breedinginsight.org:6670a923-d2f7-4b69-9c9a-5007dfa3ee01
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000172
+name: Number of Stalks in Bundle, Late Harvest
+namespace: sugarcane_trait
+def: "count of number of stalks in bundle, usually equals 10"
+xref: breedinginsight.org:ae165df2-a616-49d3-a7c3-d909d076c7a9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000173
+name: Brix, Late Harvest
+namespace: sugarcane_trait
+def: "brix lab measurement"
+xref: breedinginsight.org:7e96ec9a-6caa-4479-ba7f-684fa1386351
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000174
+name: Dollars per Acre, Late Harvest
+namespace: sugarcane_trait
+def: "dollars per acre calculation"
+xref: breedinginsight.org:78cd0f59-d63b-4673-91a9-83d24dded76e
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000175
+name: TCA, Early Harvest
+namespace: sugarcane_trait
+def: "tca calculation"
+xref: breedinginsight.org:f4beb0c7-f4aa-4477-a2d7-1084c85aae66
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000176
+name: Brix, Early Harvest
+namespace: sugarcane_trait
+def: "brix lab measurement"
+xref: breedinginsight.org:31d18acf-ea65-4cc1-afaf-4efa109ed697
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000177
+name: Brix
+namespace: sugarcane_trait
+def: "no method specified, generally applied to historic data "
+xref: breedinginsight.org:79c006c6-6d20-482a-9c0a-887de1393b2c
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000178
+name: Pol
+namespace: sugarcane_trait
+def: "no method specified, generally applied to historic data "
+xref: breedinginsight.org:2d6493fd-50a0-4022-b582-162d211cbe74
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000179
+name: Fiber
+namespace: sugarcane_trait
+def: "no method specified, generally applied to historic data "
+xref: breedinginsight.org:8c2e3a84-21d1-48c8-9bd5-9c109c98ec2b
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000180
+name: Tassel Count
+namespace: sugarcane_trait
+def: "Daily inventory of emerged tassels for parents on crossing carts or can lines"
+synonym: "Tassel Count" []
+synonym: "Number Flowering Tassels" []
+xref: breedinginsight.org:12ca06a5-cc9f-4080-9dfa-1730e50af5ff
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000181
+name: SdlngSurvive [SGR]
+namespace: sugarcane_trait
+def: "Number of seedlings surviving from a cross"
+synonym: "SdlngSurvive" []
+xref: breedinginsight.org:6d39ee64-5a11-4f6d-84f9-6ccb21d2da8d
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000182
+name: SdlngsPotted [SGR]
+namespace: sugarcane_trait
+def: "Number of seedlings potted in greenhouse"
+synonym: "SdlngsPotted" []
+xref: breedinginsight.org:bea7a30c-84eb-49ea-b97b-9a975b25f6c4
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000183
+name: Nodes Count [SGR]
+namespace: sugarcane_trait
+def: "Nodes Count"
+synonym: "Nodes Count" []
+xref: breedinginsight.org:d4a1c1f4-8efc-4666-aef9-b5735fdc99ae
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000184
+name: Dam Nodes [SGR]
+namespace: sugarcane_trait
+def: "Total number of sugarcane borer-damaged internodes, counted for the bundle (generally 12 stalks)"
+synonym: "Dam Nodes" []
+synonym: "Damaged Nodes" []
+xref: breedinginsight.org:6010b8cf-0971-4292-a6c4-bbebbd6c1eb9
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000185
+name: PDam Nodes [SGR]
+namespace: sugarcane_trait
+def: "Total number of fully-formed internodes, counted for the bundle (generally 12 stalks)"
+synonym: "PDam Nodes" []
+synonym: "Proportion of sugarcane damaged internodes" []
+xref: breedinginsight.org:30624e56-1d18-49d8-9f60-7c613e425582
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000186
+name: Adults [SGR]
+namespace: sugarcane_trait
+def: "Total number of internodes with adult sugarcane borer emergence holes, counted for the bundle (generally 12 stalks)"
+synonym: "Adults" []
+synonym: "Borer Adults" []
+xref: breedinginsight.org:05563755-2185-43e8-a353-42403c953599
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000187
+name: Rel Surv [SGR]
+namespace: sugarcane_trait
+def: "Relative survival or the proportion of internodes with sugarcane borer emergence holes (number of internodes with emergence holes divided by the total number of internodes)"
+synonym: "Rel Surv" []
+synonym: "Relative Survival" []
+xref: breedinginsight.org:c02f8c02-3991-44cc-a259-c54401ee0b30
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology

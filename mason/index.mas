@@ -1,0 +1,19 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+</%args>
+
+<center>
+<h1>Welcome to SugarcaneBase!</h1>
+<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Saccharum_officinarum%2C_Mozambique.jpg" width="300" width="300" />
+<br/>
+<!-- & homepage/carousel.mas & -->
+<br/>
+</center>
+
+<br/>
+
+
+<& homepage/github_pullrequests.mas &>
