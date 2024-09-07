@@ -8,7 +8,7 @@ $show_accept_dialog => undef
 <h1>Welcome to SugarcaneBase Workshop 2024!</h1>
 <h2>This is a platform for training.</h2>
 <br />
-<img src="/documents/img/sugarcane_ai.png" width="300" width="300" />
+<img src="/img/sugarcane_ai.png" width="300" width="300" />
 <br/>
 <!-- & homepage/carousel.mas & -->
 <br/>
