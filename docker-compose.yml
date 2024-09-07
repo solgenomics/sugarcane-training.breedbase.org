@@ -17,6 +17,9 @@ services:
       #   source: /home/production/basesite/empty_db_without.test_users.sql
       #   target: /home/production/empty_dump.sql
       - type: bind
+        source: ${HOME}/sugarcane-training.breedbase.org/mason/sugarcane_ai.png
+        target: /home/production/cxgn/sugarcane-training.breedbase.org/mason/documents/img/sugarcane_ai.png
+      - type: bind
         source: ${HOME}/sugarcane-training.breedbase.org/mason
         target: /home/production/cxgn/sugarcane-training.breedbase.org/mason
       - type: bind
