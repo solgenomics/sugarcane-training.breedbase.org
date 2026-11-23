@@ -11,12 +11,15 @@ services:
       - type: bind
         source: /home/production/sugarcane-training.breedbase.org/empty_db_without.test_users.sql
         target: /home/production/empty_dump.sql
-#      - type: bind
-#        source: /home/production/sgn
-#        target: /home/production/cxgn/sgn
+      - type: bind
+        source: /home/production/sgn
+        target: /home/production/cxgn/sgn
       - type: bind
         source: /home/production/sugarcane-training.breedbase.org/sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
+      - type: bind
+        source: /home/production/sugarcane-training.breedbase.org/scripts
+        target: /home/production/cxgn/sgn/bin/Reports
       - type: bind
         source: /home/production/db_dumps
         target: /db_dumps
